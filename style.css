@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f0e3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #b45f7a;
+    font-size: 46px;
+    margin: 5px 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    color: #7a6860;
+    font-size: 16px;
+}
+
+.produto {
+   background-color: #fff5f8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s;
+}
+
+.produto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 12px;
+}
+
+.produto > a {
+    display: block;
+}
+
+.produto h2 {
+    text-align: center;
+    color: #6b4f4f;
+}
+
+.produto a {
+    display: block;
+    width: 180px;
+    margin: auto auto 0;
+    padding: 10px;
+    background-color: #8fb9a8;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.produto {
+    width: 300px;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fffaf0;
+    border-radius: 15px;
+}
+.produto:hover {
+     transform: translateY(-5px) scale(1.05);
+}
+
+.produto a:hover {
+   background-color: #c45b83;
+}
+
+footer {
+    width: 100%;
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #6b4f4f;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+footer p {
+    color: white;
+    margin: 5px;
+}
+
+
+.titulo-produtos {
+    text-align: center;
+    color: #c45b83;
+    font-family: "Georgia", serif;
+    margin-top: 30px;
+}
+.sobre {
+
+    background-color: #fff5f8;
+
+    padding: 25px;
+
+    margin: 30px 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+}
+
+.sobre h2 {
+    color: #8b5e5e;
+    font-family: "Georgia", serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.beneficios {
+
+    text-align: center;
+
+    margin: 30px 20px;
+
+}
+
+.beneficios h2 {
+
+    color: #c45b83;
+
+    font-family: "Georgia", serif;
+
+}
+
+.lista-beneficios {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.lista-beneficios > div {
+
+    background-color: #fff5f8;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    width: 220px;
+
+}
+
+.lista-beneficios h3 {
+
+    color: #6b4f4f;
+
+}
+.contato {
+
+    background-color: #fffaf0;
+
+    padding: 30px;
+
+    margin: 30px 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+}
+
+.contato h2 {
+
+    color: #6b4f4f;
+
+    font-family: "Georgia", serif;
+
+}
+
+.contato p {
+
+    color: #7a6860;
+
+}
+
+.contato a {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 12px 25px;
+
+    background-color: #8fb9a8;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+
+}
+
+.contato a:hover {
+
+    background-color: #c45b83;
+
+}
+.flor {
+    text-align: center;
+    font-size: 38px;
+    color: #8fb9a8;
+    margin-bottom: 0;
+}
+.flor-produtos {
+    text-align: center;
+    color: #c45b83;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.instagram {
+    display: inline-block;
+    margin-top: 12px;
+    color: #b45f7a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram:hover {
+    color: #8b5e5e;
+}
+.carrossel {
+    position: relative;
+    width: 250px;
+    margin: 0 auto 15px;
+}
+
+.carrossel img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+.carrossel button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(107, 79, 79, 0.8);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.pagamento {
+    text-align: center;
+    margin-top: 25px;
+}
+.pagamento {
+    background-color: #f7f0e3;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.pagamento h3 {
+    color: #6b4f4f;
+    font-family: "Georgia", serif;
+    margin-bottom: 15px;
+}
+
+.pagamento p {
+    text-align: center;
+    margin: 10px 0;
+    color: #6b4f4f;
+    font-size: 16px;
+}
